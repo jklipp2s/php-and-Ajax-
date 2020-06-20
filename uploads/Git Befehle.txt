@@ -1,0 +1,34 @@
+/*Changes adden*/
+
+git add .
+git commit -m "some messages"
+git push origin <branchname>
+
+
+/*Zwei branches mergen*/
+git checkout origin/<branche>    //branche in die ich mergen will
+git merge <merging-branche> // branch mit der ich mergen will
+
+
+/*Von einer spezifischen branche clonen*/
+
+git clone  --single-branch --branch <branch> <remote>
+
+/* In welche branche bin ich? */
+git branch
+git rev-parse --abbrev-ref HEAD
+
+/**/
+git checkout master
+git pull origin master
+git merge test
+git push origin master
+
+
+//** React **//
+
+rm -rf node_modules
+npm install -g npm@latest
+npm i core-util-is
+
+
